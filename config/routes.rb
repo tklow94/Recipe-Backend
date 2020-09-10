@@ -1,15 +1,23 @@
 Rails.application.routes.draw do
-  resources :users, only: [:create, :index, :show, :update, :destroy]
-  resources :follows, only: [:index, :create, :destroy]
+  resources :users 
+  post '/users/:id/follow', to: "users#follow", as: "follow_user"
+  post '/users/:id/unfollow', to: "users#unfollow", as: "unfollow_user"
+  post '/users/:id', to: "users#update"
+  
+  
   post '/login', to: "authentications#login"
   resources :comments do
-    resources :comments, only: [:create, :destroy]
+    resources :comments, only: [:index, :create, :destroy]
   end
 
   resources :recipes do
-    resources :comments, only: [:create, :destroy]
+   
+    resources :comments, only: [:index, :create, :destroy]
   end
 
+
+  # get "photo/:id", to: "photos#show"
+  #     patch "photo/:id", to: "photos#update"
 
 
  

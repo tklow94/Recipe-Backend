@@ -56,4 +56,8 @@ gem 'rest-client', '~> 1.8'
 #Cloud hosting
 gem 'cloudinary', '~> 1.2', '>= 1.2.2'
 
+#hide api
+gem 'figaro', '~> 1.1', '>= 1.1.1'
 
+#serializer
+gem 'active_model_serializers', '~> 0.10.2'

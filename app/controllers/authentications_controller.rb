@@ -1,5 +1,5 @@
 class AuthenticationsController < ApplicationController
-
+    # skip_before_action :authorized, only: [:login]
   def login
     user = User.find_by(username: params[:username])
     if(!user)
@@ -16,7 +16,12 @@ class AuthenticationsController < ApplicationController
           render json: {error: "Invalid Password"}, status: :unauthorized
       end
   end
-
+#   private
+# def user_login_params
+#     params.require(:user).permit(:username, :password)
+# end
 end
+
+
 
 end
