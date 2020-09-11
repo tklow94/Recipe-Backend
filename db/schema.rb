@@ -42,6 +42,8 @@ ActiveRecord::Schema.define(version: 2020_08_30_004102) do
     t.integer "commentable_id"
     t.string "commentable_type"
     t.integer "user_id"
+    t.string "username"
+    t.string "avatar"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["recipe_id"], name: "index_comments_on_recipe_id"
