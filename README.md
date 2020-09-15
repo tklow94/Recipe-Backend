@@ -10,7 +10,24 @@ Social media is an industry I am fascinated with because of it's ability to empo
 
 # ScreenShots
 ---
-![Image]("file:///Users/alexiswilliams/Desktop/Screen%20Shot%202020-09-15%20at%202.17.28%20PM.png")
+Sign In
+![Sign in](https://github.com/tklow94/Recipe-Backend/blob/master/app/images/Login.png?raw=true)
+Profile
+![Profile](https://github.com/tklow94/Recipe-Backend/blob/master/app/images/Profile.png?raw=true)
+![Create Recipe](https://github.com/tklow94/Recipe-Backend/blob/master/app/images/Screen%20Shot%202020-09-15%20at%202.57.05%20PM.png?raw=true)
+Post
+![Post](https://github.com/tklow94/Recipe-Backend/blob/master/app/images/Recipe%20Card.png?raw=true)
+Comments
+![Comments](https://github.com/tklow94/Recipe-Backend/blob/master/app/images/Screen%20Shot%202020-09-15%20at%202.57.20%20PM.png?raw=true)
+Feed
+![Feed](https://github.com/tklow94/Recipe-Backend/blob/master/app/images/Feed.png?raw=true)
+Explore
+![Explore](https://github.com/tklow94/Recipe-Backend/blob/master/app/images/Screen%20Shot%202020-09-15%20at%202.57.40%20PM.png?raw=true)
+Live Search Database
+![Search Recipe](https://github.com/tklow94/Recipe-Backend/blob/master/app/images/Screen%20Shot%202020-09-15%20at%203.02.28%20PM.png?raw=true)
+Live Search For Users/User Recipes
+![Search Users/User Submissions](https://github.com/tklow94/Recipe-Backend/blob/master/app/images/User%20Search.png?raw=true)
+
 
 
 
@@ -33,5 +50,17 @@ Social media is an industry I am fascinated with because of it's ability to empo
 - Comment and reply on posts and comments
 - View Feed of followed user submissions
 - View your explore page to discover new recipes and new users
+
+# Contributing
+---
+Contributions are welcome, submit a pull request!
+
+# Author
+---
+Trevor Low -[Github](https://github.com/tklow94?tab=repositories)
+
+# License 
+---
+This project is licensed under the [GNU GPL](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 
