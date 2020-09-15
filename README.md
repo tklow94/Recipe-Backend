@@ -10,6 +10,7 @@ Social media is an industry I am fascinated with because of it's ability to empo
 
 # ScreenShots
 ---
+![Image]("file:///Users/alexiswilliams/Desktop/Screen%20Shot%202020-09-15%20at%202.17.28%20PM.png")
 
 
 
