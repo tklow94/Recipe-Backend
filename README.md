@@ -41,7 +41,7 @@ Live Search For Users/User Recipes
 - Active Model Serializer
 - Cloudinary
 - Material UI
--Edamam API
+- Edamam API
 
 # Features
 ---
