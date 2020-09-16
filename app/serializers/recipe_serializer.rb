@@ -1,8 +1,6 @@
 class RecipeSerializer < ActiveModel::Serializer
   attributes :id,  :name, :url, :ingredients, :calories, :daily_value, :daily_value_percent, :calories_per_serving, :servings, :img, :source, :user_id
   has_many :comments, as: :commentable, dependent: :destroy
-  # has_many :comments, dependent: :destroy
-
   belongs_to :user
 
 
