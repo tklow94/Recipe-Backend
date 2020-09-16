@@ -2,6 +2,8 @@
 ---
 Meal Time is an Instagram-esque social media platform for sharing meals you have made for yourself or others. Users can customize their profile, follow other users, comment and reply to posts, explore user submitted and non-user submitted posts, search for users or recipes by name, and view a customized follower feed. Meal Time implemenets JWT Tokens to help authorize and authenticate users.
 
+**Code cleanup is currently underway.**
+
 [Link](https://github.com/tklow94/Recipe-frontend) to frontend repository
 
 # Motivation
