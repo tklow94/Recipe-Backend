@@ -33,21 +33,21 @@ Live Search For Users/User Recipes
 
 
 
-# Tehcnologies Used
+## Tehcnologies Used
 ---
-# - React Hooks:
+# - React Hooks
   React Hooks makes it easier for me to extract and reuse code while maintaining a consistant use of functional components.
-# - React Router:
+# - React Router
   React Router made redirects seamless for me, allowing redirects to pages without having to refresh the browser.
-# - Rails API:
+# - Rails API
   Using a Rails API gave me the ability to create an API only backend, so I could manipulate a virtual browser with React to decrease resource strain on the server.
-# - Active Model Serializer:
+# - Active Model Serializer
   Active Model Serializer made it easier for me to manipulate and extract data related to users, limiting the amount of code written on the frontend.
-# - Cloudinary:
+# - Cloudinary
   Cloudinary lessened the strain on my server. Instead of storing images on a local source, Cloudinary allowed me to store them in the cloud and retreive them when necessary.
-# - Material UI:
+# - Material UI
   Material UI was built for React. It has a large and fully customizable components. The main reason I used Material UI was because of the time constraint for this project. The large amount of ready out of the box components made design much quicker while still looking professional and feeling dynamic.
-# - Edamam API:
+# - Edamam API
   Edamam API has one of the largest databases for recipes. It contains tons of information related to nutrition and allowed making a search component straightforward.
 
 # Features
