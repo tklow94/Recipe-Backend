@@ -33,7 +33,7 @@ Live Search For Users/User Recipes
 
 
 
-## Tehcnologies Used
+# Tehcnologies Used
 ---
 # - React Hooks
   React Hooks makes it easier for me to extract and reuse code while maintaining a consistant use of functional components.
