@@ -2,8 +2,6 @@
 ---
 Meal Time is an Instagram-esque social media platform for sharing meals you have made for yourself or others. Users can customize their profile, follow other users, comment and reply to posts, explore user submitted and non-user submitted posts, search for users or recipes by name, and view a customized follower feed. Meal Time implemenets JWT Tokens to help authorize and authenticate users.
 
-**Code cleanup is currently underway and new features are being added on a weekly basis**
-
 [Link](https://github.com/tklow94/Recipe-frontend) to frontend repository
 
 # Motivation
@@ -37,6 +35,10 @@ Live Search For Users/User Recipes
 ---
 # - React Hooks
   React Hooks makes it easier for me to extract and reuse code while maintaining a consistant use of functional components.
+# - JWT Tokens and Bcrypt
+  Utilize stateless tokens to maintain a local and client side based authentication. This imporoves the user experience as the user as refresh does not have to occur everytime authentication or authorization is required. Also helps improve scalability by using less server side resources. 
+# - Postgresql
+  Postgresql is a program that allows me to easily create a relational database and view my data in clear and distinct tables.
 # - React Router
   React Router made redirects seamless for me, allowing redirects to pages without having to refresh the browser.
 # - Rails API
